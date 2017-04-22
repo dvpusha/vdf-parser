@@ -9,7 +9,7 @@ VDF may contain comments. However, they are not preserved during decoding.
 Add the dependency:
 
 ```bash
-composer require pusha/laravel-webmoney
+composer require pusha/vdf-parser
 ```
 
 ### Usage
