@@ -15,7 +15,7 @@ composer require pusha/laravel-webmoney
 ### Usage
 
 ```php
-use Pusha\VDF;
+use Pusha\VDFParser\VDF;
 
 VDF::decode();
 VDF::encode();
