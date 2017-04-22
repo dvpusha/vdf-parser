@@ -114,7 +114,7 @@ class VDF
         return self::encode_step($arr, $pretty, 0);
     }
 
-    private function encode_step($arr, $pretty, $level)
+    private static function encode_step($arr, $pretty, $level)
     {
         if(!is_array($arr)) {
             trigger_error("VDF::encode encounted " . gettype($arr) . ", only array or string allowed (depth ".$level.")", E_USER_NOTICE);
