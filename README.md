@@ -4,7 +4,15 @@ Format: https://developer.valvesoftware.com/wiki/KeyValues
 
 VDF may contain comments. However, they are not preserved during decoding.
 
-### PHP
+### Installation Via Composer
+
+Add the dependency:
+
+```bash
+composer require pusha/laravel-webmoney
+```
+
+### Usage
 
 ```php
 use Pusha\VDF;
