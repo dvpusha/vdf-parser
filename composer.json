@@ -1,0 +1,24 @@
+{
+    "name": "pusha/vdf-parser",
+    "description": "KeyValue encoder/decoder for various languages",
+    "homepage": "https://github.com/dvpusha/vdf-parser",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "pusha"
+        },
+        {
+            "name": "Rossen Georgiev"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pusha\\VDFParser\\": "src"
+        }
+    }
+}
